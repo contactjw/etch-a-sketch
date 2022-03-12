@@ -42,8 +42,8 @@ button {
 .drawing-section {
     grid-column: 2 / 4;
     border: 2px solid black;
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
     display: grid;
 }
 

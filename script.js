@@ -1,8 +1,9 @@
- for (let i = 0; i < 10; i++) {
-    let newDiv = document.createElement("div");
-    newDiv.style.width = "10px";
-    newDiv.style.height = "10px";
-    newDiv.style.border = "1px solid black";
-    document.querySelector(".drawing-section").appendChild(newDiv);
-}
+let drawingSection = document.querySelector(".drawing-section");
+drawingSection.style.gridTemplateRows = "repeat(16, 1fr)"
+drawingSection.style.gridTemplateColumns = "repeat(16, 1fr)"
 
+for (let i = 0; i < 256; i++) {
+    let newDiv = document.createElement("div");
+    newDiv.style.border = "1px solid black";
+    drawingSection.appendChild(newDiv);
+}
