@@ -5,6 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
 .container {
     max-width: 750px;
     margin: 35px auto;
@@ -88,4 +89,14 @@ button {
   .slidecontainer p {
       text-align: center;
       font-weight: bold;
+  }
+
+  .footer {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
   }
