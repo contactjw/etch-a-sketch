@@ -28,5 +28,10 @@ function changeBlack(e) {
     e.target.style.backgroundColor = "black";
 }
 
-
+const clearButton = document.querySelector(".clear-mode");
+clearButton.addEventListener("click", () => {
+    for (let i = 0; i < 256; i++) {
+        divs[i].style.backgroundColor = "white";
+    }
+})
 
